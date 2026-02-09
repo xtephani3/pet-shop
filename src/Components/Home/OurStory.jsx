@@ -8,11 +8,16 @@ export function OurStory() {
                 <div className="flex w-full px-[15px]">
 
                     <div className="pt-[150px] w-1/2 flex flex-col gap-[30px]">
+                    <img className="w-[98px]" src="/double-paw.png"/>
                         <div className="flex flex-col gap-[20px]">
+                            <div>
+                            <img className= " w-[109px]"src="/dashed-line.png"/>
                             <p className="flex gap-[5px] items-center">
-
-                                <span className="text-[15px] font-semibold">Natural Pet Products</span>
+                                <img src="/orange-bone.png"/>
+                                <span className="text-[15px] text-[var(--color-secondary)]">Our Story</span>
                             </p>
+                            <img className= " w-[109px]"src="/dashed-line.png"/>
+                            </div>
                             <h2 className="font-semibold text-[70px] leading-[70px]">We are a fully
                                 committed to your
                                 pet's well-being</h2>
@@ -53,7 +58,7 @@ export function OurStory() {
                             </div>
                         </div>
                         <div className="flex gap-[30px]">
-                            <Button variant="secondary" size="md" background="tertColor">Explore Products</Button>
+                            <Button  variant="secondary" size="md" background="tertColor" color="whiteColor">Learn More</Button>
                             <div className="flex gap-[2px]">
                                 <img src="/telephone.png"/>
                                 <div>
@@ -65,10 +70,10 @@ export function OurStory() {
 
                     </div>
 
-                    <div className="w-1/2 mt-[150px] relative">
-                        <img src="/our-story-animal.png" />
-                        <div className="absolute top-[-5px] right-[-8px]">
-                        <img src="/happy-paws.png"/>
+                    <div className="w-1/2 mt-[290px] relative">
+                        <img src="/our-story-media.png" />
+                        <div className="absolute top-[-9px] right-[-10px]">
+                        <img className="w-[165px]" src="/happy-paws.png"/>
                         </div>
                     </div>
                 </div>

@@ -6,11 +6,11 @@ export function Hero(){
     return(
         <div className="px-[35px]">
 
-        <div className="bg-[url('/homebg.png')] h-[729.48px] bg-no-repeat ">
+        <div className="bg-[url('/homebg.png')] h-[729.48px] bg-no-repeat bg-contain ">
           <div className="flex w-full px-[15px]">
 
-            <div className="pt-[150px] w-1/2 ">
-            <div className="flex flex-col gap-[10px]">
+            <div className="pt-[160px] w-1/2 ">
+            <div className="flex flex-col gap-[20px] pb-[20px]">
               <p className="flex gap-[5px] items-center">
                 <img src={Paw} />
                 <span className="text-[15px] font-semibold">Natural Pet Products</span>
@@ -22,14 +22,14 @@ export function Hero(){
                 products.</p>
                 </div>
               <Button variant="primary" size="md" background="priColor">Explore Products</Button>
-              <div className="flex gap-[10px] pt-[30px]">
+              <div className="flex gap-[10px] pt-[70px]">
                 <img src="/slide1.png" />
                 <img src="/slide2.png" />
                 <img src="/slide3.png" />
               </div>
             </div>
 
-            <div className="w-1/2 bg-[#E6D445] rounded-[100px] pt-[100px] mt-[50px]">
+            <div className="w-1/2 bg-[#E6D445] rounded-[100px] pt-[120px] mt-[50px]">
               <img src="/homeanimals.png" />
             </div>
           </div>
